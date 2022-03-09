@@ -9,9 +9,7 @@ This program is designed to solve the Wordle game reversely, with modefied rules
 Wordle rules:
 
   A green tile means that the letter is in the solution in the same position.
-  
-  A yellow tile means that the letter is in the solution in a different position.
-  
+  A yellow tile means that the letter is in the solution in a different position.  
   A grey tile means that the letter is not in the solution.
   
 Furthermore:
