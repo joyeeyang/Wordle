@@ -7,14 +7,17 @@
 This program is designed to solve the Wordle game reversely, with modefied rules
 
 Wordle rules:
-  A green tile means that the letter is in the solution in the same position. \n
-  A yellow tile means that the letter is in the solution in a different position. \n
-  A grey tile means that the letter is not in the solution.\n
+
+  A green tile means that the letter is in the solution in the same position.
+  
+  A yellow tile means that the letter is in the solution in a different position.
+  
+  A grey tile means that the letter is not in the solution.
   
 Furthermore:
   If a letter was marked as grey, it cannot be used again.\n
-  If a letter was marked as yellow, that letter must be used in the next guess in a different position that the previous guess.\n
-  If a letter was marked as green, that letter must be used in the same position in the next guess.\n
+  If a letter was marked as yellow, that letter must be used in the next guess in a different position that the previous guess.
+  If a letter was marked as green, that letter must be used in the same position in the next guess.
   
 Steps to solution:
   1: Read the dictionary file into a linked list. The dictionary file contains a list of 5-letter words, one per line.  Read the file and construct a linked list of struct nodes.  This is a task in the extra lab, so you can just copy your code from that lab.
