@@ -1,4 +1,4 @@
-# Wordle CSC209 Assignment
+# Wordle Assignment - CSC209
 
 - Makefile is provided
 - To run: ./solver samples/input1 > output1.txt
